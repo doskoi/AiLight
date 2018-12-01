@@ -1,19 +1,24 @@
-
+#include <SimpleSleep.h>
+SimpleSleep Sleep;
+SimpleSleep_Cal SleepCal;
 //int ledPin = LED_BUILTIN;
 
 int pirPin = 3;
 int lightPin = 0;
-unsigned long lastSeen = 0;
+//unsigned long lastSeen = 0;
 int state = 0;
+int timeoutCount = 10;
 
-const long timeout = 10000;
+//const long timeout = 10000;
 const long interval = 1000;
+
 
 //#include <RH_ASK.h>
 //#include <SPI.h> // Not actualy used but needed to compile
 //RH_ASK driver(2000, 9, 10); // ESP8266: do not use pin 11
 
 void setup() {
+  SleepCal = Sleep.getCalibration();
 //  Serial.begin(115200);
 //  pinMode(ledPin, OUTPUT);
   pinMode(lightPin, OUTPUT);
@@ -47,25 +52,25 @@ void loop() {
   int pirValue = digitalRead(pirPin);
 //  digitalWrite(ledPin, pirValue);
   
-  boolean radioTrigger = false;//decode();
-  
-  if (pirValue == HIGH || radioTrigger == true) {
+  if (pirValue == HIGH) {
       if (state == LOW) {
 //        Serial.println("Turn ON");
         fadein();
         state = HIGH;
         digitalWrite(lightPin, state);
       }
-      lastSeen = millis();
+      timeoutCount = 0;
+//      lastSeen = millis();
 //      Serial.print("Last: "); 
 //      Serial.println(lastSeen);
   } else {
-    unsigned long elapsed = millis() - lastSeen;
+//    unsigned long elapsed = millis() - lastSeen;
 //    Serial.print("Now: "); 
 //    Serial.print(millis());
 //    Serial.print(" Elapsed: "); 
 //    Serial.println(elapsed);
-    if (elapsed > timeout || elapsed < 0) {
+    timeoutCount++;
+    if (timeoutCount == 12) {
       if (state == HIGH) {
         fadeout();
         state = LOW;
@@ -77,7 +82,7 @@ void loop() {
 
 //  Serial.print("State: ");
 //  Serial.println(state);
-  delay(interval);
+  Sleep.deeplyFor(interval, SleepCal);
 }
 
 void fadein() {
