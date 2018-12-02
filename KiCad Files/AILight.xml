@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\dosko\Documents\AILightCR\AILight.sch</source>
+    <date>2018-11-16 10:10:41</date>
+    <tool>Eeschema (5.0.1)-4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AILight.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ATtiny13A-SSU</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf</datasheet>
+      <libsource lib="AILight-rescue" part="ATtiny13A-SSU-MCU_Microchip_ATtiny" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED0A87</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Connector 1x2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED0A26</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="AILight-rescue" part="AMS1117-5.0-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED0B0E</tstamp>
+    </comp>
+    <comp ref="PIR1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="Conn_01x03_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED3257</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Connector 1x2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED1B5C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF530N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="AILight-rescue" part="IRF540N-Transistor_FET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED405D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED791D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED8B93</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_DC_Power</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="Conn_Coaxial_Power-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED30DD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED6478</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED64F6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED6592</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED65D0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="D_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED86D8</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AILight-rescue" part="D_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED897D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AILight-rescue" part="AMS1117-5.0-Regulator_Linear">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="ATtiny13A-SSU-MCU_Microchip_ATtiny">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny13A-SSU-MCU_Microchip_ATtiny</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET~/PB5" type="BiDi"/>
+        <pin num="2" name="PB3" type="BiDi"/>
+        <pin num="3" name="PB4" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0" type="BiDi"/>
+        <pin num="6" name="PB1" type="BiDi"/>
+        <pin num="7" name="PB2" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="Conn_01x02_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="Conn_01x03_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="Conn_Coaxial_Power-Connector">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_Power-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="D_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="IRF540N-Transistor_FET">
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N-Transistor_FET</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AILight-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AILight-rescue">
+      <uri>C:\Users\dosko\Documents\AILightCR/AILight-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J3-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="PIR1" pin="3"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(PIR1-Pad2)">
+      <node ref="PIR1" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(PIR1-Pad1)">
+      <node ref="PIR1" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+  </nets>
+</export>

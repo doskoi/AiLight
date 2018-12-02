@@ -1,0 +1,11 @@
+"Id";"代号";"封装";"数量";"名称";"供应商和REF";
+1;"D2,D1";"D_DO-41_SOD81_P10.16mm_Horizontal";2;"1N5819";;;
+2;"U2";"SOIC-8_3.9x4.9mm_P1.27mm";1;"ATtiny13A-SSU";;;
+3;"J3";"BarrelJack_CUI_PJ-063AH_Horizontal";1;"Conn_DC_Power";;;
+4;"C1";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"100nF";;;
+5;"R5,R4,R3,R2";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";4;"20K";;;
+6;"J2,J1";"PinSocket_1x02_P2.54mm_Vertical";2;"Connector 1x2";;;
+7;"PIR1";"PinSocket_1x03_P2.54mm_Horizontal";1;"Conn_01x03_Female";;;
+8;"R1";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"10K";;;
+9;"U1";"SOT-223-3_TabPin2";1;"AMS1117-5.0";;;
+10;"Q1";"TO-220-3_Vertical";1;"IRF530N";;;

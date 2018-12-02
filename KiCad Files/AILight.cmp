@@ -1,0 +1,123 @@
+Cmp-Mod V01 Created by PcbNew   date = 2018-11-16 11:36:11
+
+BeginCmp
+TimeStamp = 5C22883C
+Path = /5BED897D
+Reference = D2;
+ValeurCmp = 1N5819;
+IdModule  = Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BED1D88
+Path = /5BED0A87
+Reference = U2;
+ValeurCmp = ATtiny13A-SSU;
+IdModule  = Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BED9ECF
+Path = /5BED30DD
+Reference = J3;
+ValeurCmp = Conn_DC_Power;
+IdModule  = Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDBC99
+Path = /5BED86D8
+Reference = D1;
+ValeurCmp = 1N5819;
+IdModule  = Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDBFE2
+Path = /5BED8B93
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDFBA3
+Path = /5BED65D0
+Reference = R5;
+ValeurCmp = 20K;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDFBD3
+Path = /5BED6592
+Reference = R4;
+ValeurCmp = 20K;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDFC33
+Path = /5BED64F6
+Reference = R3;
+ValeurCmp = 20K;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDFC03
+Path = /5BED6478
+Reference = R2;
+ValeurCmp = 20K;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C0580B0
+Path = /5BED1B5C
+Reference = J2;
+ValeurCmp = Connector 1x2;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BED9E50
+Path = /5BED0A26
+Reference = J1;
+ValeurCmp = Connector 1x2;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C057D73
+Path = /5BED3257
+Reference = PIR1;
+ValeurCmp = Conn_01x03_Female;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDFCD7
+Path = /5BED791D
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDC042
+Path = /5BED0B0E
+Reference = U1;
+ValeurCmp = AMS1117-5.0;
+IdModule  = Package_TO_SOT_SMD:SOT-223-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BEDDEC2
+Path = /5BED405D
+Reference = Q1;
+ValeurCmp = IRF530N;
+IdModule  = Package_TO_SOT_THT:TO-220-3_Vertical;
+EndCmp
+
+EndListe
